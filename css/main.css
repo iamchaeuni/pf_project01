@@ -1,0 +1,371 @@
+/* * {
+    outline: 1px solid pink;
+} */
+
+/* topBanner */
+.topBanner {
+    position: relative;
+    background: rgb(15, 15, 15);
+    padding: 30px 0;
+}
+
+.topBanner.on {
+    height: 0;
+    padding: 0 0;
+    overflow: hidden;
+}
+
+.topBanner .inner {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.topBanner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.topBanner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 30px 0;
+    color: #fff;
+}
+
+.topBanner i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.topBanner a {
+    margin: 15px;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+/* header { */
+.header img {
+    width: 100px;
+    margin: 5px 0 0 auto;
+
+}
+
+.header h1 {
+    margin: 0 600px 0 0;
+}
+
+.header .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 80px;
+    /* justify-content: space-between; */
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header .gnb>ul>li {
+    display: inline-block;
+}
+
+.header .gnb>ul>li a {
+    text-transform: uppercase;
+    padding: 5px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 15px;
+    display: block;
+}
+
+.header .gnb>ul>li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+}
+
+.header .right {
+    margin: 5px 0 0 auto;
+}
+
+/* } header */
+
+/* mainVisual { */
+.mainVisual .mainSlide figure {
+    position: relative;
+    height: 900px;
+}
+
+.mainVisual .mainSlide .itm01 {
+    background: url(../img/gyj1.jpg) no-repeat center top/cover;
+}
+
+.mainVisual .mainSlide .itm02 {
+    background: url(../img/gyj2.jpg) no-repeat center top/cover;
+}
+
+.mainVisual .mainSlide .itm03 {
+    background: url(../img/gyj3.jpg) no-repeat center top/cover;
+}
+
+.mainVisual .mainSlide .itm04 {
+    background: url(../img/gyj4.jpg) no-repeat center center/cover;
+}
+
+.mainVisual .mainSlide .itm05 {
+    background: url(../img/gyj5.jpg) no-repeat center top/cover;
+}
+
+.mainVisual .mainSlide .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+}
+
+.mainVisual .mainSlide .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* } mainVisual */
+
+
+/* mainContent { */
+.mainContent {
+    padding: 100px 0;
+}
+
+.mainContent h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.mainContent p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+.mainContent .inner {
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mainContent .inner figure {
+    flex: 1;
+    text-align: center;
+}
+
+.mainContent figure img {
+    width: 100%;
+}
+
+.mainContent .img_box {
+    position: relative;
+}
+
+.mainContent .img_box img {
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+.mainContent strong {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.mainContent a {
+    display: inline-block;
+    padding: 7px 15px;
+    margin: 0 3px;
+    background: rgb(15, 15, 15);
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 30px;
+    color: #fff;
+}
+
+.mainContent a:nth-child(2) {
+    background: #fff;
+    color: rgb(15, 15, 15);
+    border: 1px solid rgb(15, 15, 15);
+}
+
+.mainContent a:hover {
+    background: #fff;
+    border: 3px solid rgb(15, 15, 15);
+    color: rgb(15, 15, 15);
+}
+
+/* } mainContent */
+
+
+/* mainBanner { */
+.mainBanner {
+    padding: 100px 0;
+    text-align: center;
+    background: url(../img/tweedbg.jpg) no-repeat fixed center center/cover;
+    color: #fff;
+    /* filter: grayscale(1); */
+}
+
+.mainBanner h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
+
+.mainBanner p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+    color: #fff;
+}
+
+.mainBanner i {
+    background: rgb(15, 15, 15);
+    padding: 10px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.mainBanner span {
+    vertical-align: 1px;
+    margin: 0 10px 0 0;
+    color: #fff;
+}
+
+/* } mainBanner */
+
+
+/* mainProduct { */
+.mainProduct {
+    padding: 80px 0;
+    text-align: center;
+}
+
+
+.mainProduct h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.mainProduct .img_box img {
+    flex: 1;
+    width: 110%;
+    border-radius: 50%;
+}
+
+.mainProduct figure {
+    margin: 0 5px;
+
+}
+
+.mainProduct strong {
+    font-size: 15px;
+}
+
+.mainProduct .inner {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.mainProduct .img_box {
+    position: relative;
+    padding: 20px 30px;
+}
+
+.mainProduct .slick-dots {
+    margin: 20px 0 0 0;
+}
+
+.mainProduct .slick-dots li {
+    display: inline-block;
+    margin: 0 2px;
+}
+
+.mainProduct .slick-dots button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: rgb(15, 15, 15);
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+.mainProduct .arrows a {
+    margin: 35px 10px;
+    width: 65px;
+    height: 25px;
+    display: inline-block;
+    background: rgb(15, 15, 15);
+    color: #fff;
+    border: 2px solid rgb(15, 15, 15);
+    border-radius: 50px;
+}
+
+/* } mainProduct */
+
+
+/* footer { */
+.footer {
+    padding: 40px 0;
+    border-top: 2px solid #ddd;
+}
+
+.footer .inner {
+    position: relative;
+}
+
+.footer .list {
+    position: absolute;
+    vertical-align: middle;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer address {
+    vertical-align: middle;
+    position: absolute;
+    font-size: 15px;
+    margin: 0 0 0 30px;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+
+.footer .list li {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0 15px;
+}
+
+/* } footer */
